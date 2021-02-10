@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TC3", "TC3\TC3.csproj", "{FA03795D-787A-464C-BE15-F7DBD558B8ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B51DBB74-E2AB-4129-9625-3D52A461E7C1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{239F5947-BB3E-4FEC-B42C-8D00BBB288FF}"
+	ProjectSection(SolutionItems) = preProject
+		Luhn.pseudocode.txt = Luhn.pseudocode.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC3Test", "TC3Test\TC3Test.csproj", "{8614DCB0-43F3-4FFF-8CD9-2CAF7D7703E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC3IntegrationTest", "TC3IntegrationTest\TC3IntegrationTest.csproj", "{654104CE-7AA7-4BA2-A8B6-1C5F0E2EDE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC3SystemTest", "TC3SystemTest\TC3SystemTest.csproj", "{3AA842DA-727E-4B34-BAE1-BD4CA5525E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA03795D-787A-464C-BE15-F7DBD558B8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA03795D-787A-464C-BE15-F7DBD558B8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA03795D-787A-464C-BE15-F7DBD558B8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA03795D-787A-464C-BE15-F7DBD558B8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8614DCB0-43F3-4FFF-8CD9-2CAF7D7703E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8614DCB0-43F3-4FFF-8CD9-2CAF7D7703E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8614DCB0-43F3-4FFF-8CD9-2CAF7D7703E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8614DCB0-43F3-4FFF-8CD9-2CAF7D7703E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654104CE-7AA7-4BA2-A8B6-1C5F0E2EDE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654104CE-7AA7-4BA2-A8B6-1C5F0E2EDE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654104CE-7AA7-4BA2-A8B6-1C5F0E2EDE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654104CE-7AA7-4BA2-A8B6-1C5F0E2EDE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA842DA-727E-4B34-BAE1-BD4CA5525E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA842DA-727E-4B34-BAE1-BD4CA5525E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA842DA-727E-4B34-BAE1-BD4CA5525E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA842DA-727E-4B34-BAE1-BD4CA5525E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{239F5947-BB3E-4FEC-B42C-8D00BBB288FF} = {B51DBB74-E2AB-4129-9625-3D52A461E7C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9179721-F621-4CBD-9C6B-DEE805827D0E}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		version = 1.0
+	EndGlobalSection
+EndGlobal
