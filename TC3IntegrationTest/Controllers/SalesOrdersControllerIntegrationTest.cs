@@ -99,6 +99,7 @@ namespace TC3IntegrationTest.Controllers {
             ActionResult<SalesOrderDto> result = controller.GetSalesOrderById(1);
 
             transaction.Rollback();
+
             Assert.Equal(1, result.Value.SalesOrderId);
         }
 
